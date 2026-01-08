@@ -1,0 +1,5 @@
+El programa requiere identificar los 10 identificadores o nombres correspondientes 
+a viviendas y su consumo electrico mensual durante un año, debemos llamar dos 
+funciones desde el metodo principal para poder separar la logica del programa,
+debemos solicitar nombres y consumo de la vivienda y guardar en una matriz,
+las matrizes son las viviendas y las columnas los meses, se espera mostrar todo ordenado.

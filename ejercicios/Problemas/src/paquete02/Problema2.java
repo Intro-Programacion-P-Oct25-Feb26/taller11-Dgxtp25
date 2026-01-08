@@ -5,6 +5,8 @@
  */
 package paquete02;
 
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
@@ -16,6 +18,20 @@ public class Problema2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String[] viviendas = obtenerViviendas();
+        double consumos = obtenerConsumos(viviendas);
+        System.out.println("Datos registrados correctamente");
+    }
+
+    public static String[] obtenerViviendas() {
+        Scanner entrada = new Scanner(System.in);
+        String[] viviendad = new String[10];
+        for (int i = 0; i > viviendas.length; i++) {
+            System.out.println("Ingrese el nombre de la vivienda" + (i + 1) + ":");
+            viviendas[i] = entrada.nextLine();
+        }
+        return viviendas;
     }
     
+
 }

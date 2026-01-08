@@ -1,0 +1,17 @@
+¿Qué parte del problema le resultó más difícil de comprender y por qué?
+La parte mas dificil que tuve fue lograr comprender que el programa debia solo 
+mostrar el resultado si no mostrar solo el resultado y ademas el arreglo de datos
+en la matriz y en la columna.
+
+¿Qué error cometió al inicio y cómo lo corrigió?
+En if puse ; en lugar de { por ende el programa imprimia pares e impares, elimine
+; y cerre con llaves y corregi el error, tambien recorri mal las columnas en 
+lugar de datos[i].length puse < datos.length; j++ por lo que el programa no recorria
+
+¿Qué parte de la solución considera más importante?
+Considero que las partes de if y el recorrido de columnas son las mas importantes 
+debido a que son importantes para que el programa haga lo que el ejercicio pide.
+
+¿Qué aprendió con este ejercicio que no tenía claro antes?
+Aprendi a ordenar bien las matrizes y tambien a poder recorrer bien las columas
+para dar solucion a lo que pide el programa segun lo que pida el orden.
