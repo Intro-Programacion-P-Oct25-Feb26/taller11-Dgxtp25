@@ -9,13 +9,34 @@ package paquete03;
  *
  * @author reroes
  */
+import java.util.Scanner;
+
 public class Problema3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Seleccione una opción:");
+        System.out.println("1. Área del cuadrado");
+        System.out.println("2. Área del triángulo");
+        System.out.println("3. Área del rectángulo");
+
+        int opcion = entrada.nextInt();
+
+        switch (opcion) {
+            case 1:
+                obtenerAreaCuadrado();
+                break;
+            case 2:
+                obtenerAreaTriangulo();
+                break;
+            case 3:
+                obtenerAreaRectangulo();
+                break;
+            default:
+                System.out.println("Opción no válida");
+        }
     }
-    
+
+ 
 }

@@ -1,0 +1,3 @@
+Necesitamos calcular el area de un cuadrado, de un triangulo y de un rectangulo,
+solicitnado datos e impirmiendo valores correspondientes, pedimos al usuario ingresar
+ciero numero para poder realizar el procedimiento.

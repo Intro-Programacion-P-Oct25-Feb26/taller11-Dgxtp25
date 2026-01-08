@@ -1,0 +1,14 @@
+¿Qué parte del problema le resultó más difícil de comprender y por qué?
+La parte mas difil fue organizar las filas y las columnas para que representen 
+viviendad y columnas los meses.
+
+¿Qué error cometió al inicio y cómo lo corrigió?
+Confundi el tamano de la matriz pero lo corregi usando el arreglo de viviendas 
+como referencia
+
+¿Qué parte de la solución considera más importante?
+Considero importante a la separacion de funciones para ser mas organizado.
+
+¿Qué aprendió con este ejercicio que no tenía claro antes?
+Aprendi a usar mejor funciones de arreglos y matrices para ordenar datos por 
+teclado.
