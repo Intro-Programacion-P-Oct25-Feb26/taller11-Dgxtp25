@@ -38,5 +38,39 @@ public class Problema3 {
         }
     }
 
- 
+    // Procedimiento para el área del cuadrado
+    public static void obtenerAreaCuadrado() {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Ingrese el lado del cuadrado: ");
+        double lado = entrada.nextDouble();
+
+        double area = lado * lado;
+        System.out.println("El área del cuadrado es: " + area);
+    }
+
+    // Procedimiento para el área del triángulo
+    public static void obtenerAreaTriangulo() {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Ingrese la base del triángulo: ");
+        double base = entrada.nextDouble();
+
+        System.out.print("Ingrese la altura del triángulo: ");
+        double altura = entrada.nextDouble();
+
+        double area = (base * altura) / 2;
+        System.out.println("El área del triángulo es: " + area);
+    }
+
+    // Procedimiento para el área del rectángulo
+    public static void obtenerAreaRectangulo() {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print("Ingrese la base del rectángulo: ");
+        double base = entrada.nextDouble();
+
+        System.out.print("Ingrese la altura del rectángulo: ");
+        double altura = entrada.nextDouble();
+
+        double area = base * altura;
+        System.out.println("El área del rectángulo es: " + area);
+    }
 }
